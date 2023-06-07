@@ -153,7 +153,7 @@ $-- <title>$page-title$$if(page-title-postfix)$--$page-title-postfix$$endif$itle
 <div class="w3-grey w3-container w3-tiny" style="margin-top:24px;padding-right:58px"> $-- removed w3-padding-32
     <p class="w3-left">  <!--  not including data, but version -->
         <a>Produced with SGG $dainoversion$ from $filename3$ ($visibility$, $version$) with $storage.masterTemplateFile$.</a>  
-        <a href="http://frank.gerastree.at/Journals/dainodesign/index.html">Rationale for page layout design</a>
+        <a href="http://frank.gerastree.at/Essays/dainodesign/index.html">Rationale for page layout design</a>
     
     <div class="w3-right">
         <a></a>Powered by</a>

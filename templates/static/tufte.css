@@ -186,6 +186,12 @@ blockquote footer {
     text-align: right;
 }
 
+section > h2,
+section > h3,
+section > h4,
+section > h5,
+/* this limits the titles to remain left of the right column containing the footnotes */
+/* alternatively the footnotes could fill the left column before the next title  */
 section > p,
 section > footer,
 section > table {

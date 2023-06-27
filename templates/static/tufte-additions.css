@@ -127,3 +127,11 @@
                 margin-bottom: 1.4rem;
                 line-height: 1;
             }
+            h6 {
+                /* font-style: italic; */
+                font-weight: 400;
+                font-size: 1.4rem;
+                margin-top: 2rem;
+                margin-bottom: 1.4rem;
+                line-height: 1;
+            }

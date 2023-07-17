@@ -1,8 +1,9 @@
 %%
 %% This file contains the code that is common to the Tufte-LaTeX document classes.
 %%
+%% Verion af1
 
-\ProvidesFile{tufte-common.def}[2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles]
+\ProvidesFile{tufte-common_af1.def}[2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles]
 
 %%
 % The `xkeyval' package simplifies the user interface for the document class options
@@ -1648,25 +1649,24 @@
 
 % Subsubsection and following section headings shouldn't be used.
 % See Bringhurst's _The Elements of Typography_, section 4.2.2.
-\renewcommand\subsubsection{%
-  \@tufte@error{\string\subsubsection is undefined by this class.
-    See Robert Bringhurst's _The Elements of 
-    Typographic Style_, section 4.2.2.
-    \string\subsubsection was used}
-    {From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
-    many levels of headings as you need, no more and no fewer.  Also see the many 
-    related threads on Ask E.T. at http://www.edwardtufte.com/.}
-}
+% \@tufte@error{\string\subsubsection is undefined by this class.
+%    See Robert Bringhurst's _The Elements of 
+%    Typographic Style_, section 4.2.2.
+%    \string\subsubsection was used}
+%    {From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+%    many levels of headings as you need, no more and no fewer.  Also see the many 
+%    related threads on Ask E.T. at http://www.edwardtufte.com/.}
+}%
 
-\renewcommand\subparagraph{%
-  \@tufte@error{\string\subparagraph is undefined by this class.%
-    See Robert Bringhurst's _The Elements of 
-    Typographic Style_, section 4.2.2.
-    \string\subparagraph was used}
-    {From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
-    many levels of headings as you need, no more and no fewer.  Also see the many 
-    related threads on Ask E.T. at http://www.edwardtufte.com/.}
-}
+%\renewcommand\subparagraph{%
+%  \@tufte@error{\string\subparagraph is undefined by this class.%
+%    See Robert Bringhurst's _The Elements of 
+%    Typographic Style_, section 4.2.2.
+%    \string\subparagraph was used}
+%    {From Bringhurst's _The Elements of Typographic Style_, section 4.2.2: Use as 
+%    many levels of headings as you need, no more and no fewer.  Also see the many 
+%    related threads on Ask E.T. at http://www.edwardtufte.com/.}
+%}
 
 
 % Formatting for main TOC (printed in front matter)

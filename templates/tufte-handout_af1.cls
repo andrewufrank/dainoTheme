@@ -1,11 +1,11 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 
-\ProvidesClass{tufte-handout}[2015/06/21 v3.5.2 Tufte-handout class]
+\ProvidesClass{tufte-handout_af1}[2015/06/21 v3.5.2 Tufte-handout class]
 
 %%
 % Declare we're tufte-handout
 \newcommand{\@tufte@class}{article}% the base LaTeX class (defaults to the article/handout style)
-\newcommand{\@tufte@pkgname}{tufte-handout}% the name of the package (defaults to tufte-handout)
+\newcommand{\@tufte@pkgname}{tufte-handout_af1}% the name of the package (defaults to tufte-handout)
 
 %%
 % Load the common style elements

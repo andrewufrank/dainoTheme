@@ -1,3 +1,5 @@
+% tuffte-book_af1.cls
+
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 
 \ProvidesClass{tufte-book}[2015/06/30 v3.5.3 Tufte-book class]
@@ -9,7 +11,8 @@
 
 %%
 % Load the common style elements
-\input{tufte-common.def}
+\input{tufte-common_af1
+.def}
 
 
 %%

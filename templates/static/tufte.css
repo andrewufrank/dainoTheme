@@ -173,6 +173,7 @@ div.epigraph > blockquote > footer > cite {
 
 blockquote {
     font-size: 1.4rem;
+    width: 55%;  /*addition af  */
 }
 
 blockquote p {
@@ -458,7 +459,7 @@ label.margin-toggle:not(.sidenote-number) {
     blockquote {
         margin-left: 1.5em;
         margin-right: 0em;
-    }
+        width: 55%;  /*addition af  */}
 
     blockquote p,
     blockquote footer {
